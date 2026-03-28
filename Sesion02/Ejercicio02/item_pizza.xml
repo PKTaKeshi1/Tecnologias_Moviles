@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Layout de cada celda del GridView.
+    Contiene una ImageView (foto de pizza) y
+    un TextView con el nombre debajo.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <!-- Imagen de la pizza -->
+    <ImageView
+        android:id="@+id/imgPizza"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:contentDescription="Imagen de pizza"
+        android:scaleType="centerCrop" />
+
+    <!-- Nombre de la pizza -->
+    <TextView
+        android:id="@+id/tvNombreItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="#B71C1C"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
