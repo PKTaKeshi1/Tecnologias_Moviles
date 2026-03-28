@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pizzas del Mundo</string>
+    <string name="lbl_titulo">🍕 Nuestras Pizzas</string>
+    <string name="lbl_subtitulo">Toca una pizza para ver su nombre</string>
+</resources>
